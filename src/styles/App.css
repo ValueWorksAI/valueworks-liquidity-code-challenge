@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body.dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  body.light {
+    background-color: white;
+    color: black;
+  }
+  
+  body.dark button, body.dark input, body.dark select {
+    background-color: #444;
+    color: white;
+    border: 1px solid #555;
+  }
+  
+  body.light button, body.light input, body.light select {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #ddd;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .data-table-header, .data-table-cell {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .data-table-footer td {
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
